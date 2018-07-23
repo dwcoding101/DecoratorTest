@@ -1,0 +1,19 @@
+{
+  "name": "dev-env",
+  "version": "1.0.0",
+  "description": "Development environment for Typescript using Jasmine and Karma for testing ",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config=webpack.config.js",
+    "exec": "node ./dist/main-bundle.js"
+  },
+  "keywords": [],
+  "author": "D.Whitney",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-loader": "^4.1.0",
+    "typescript": "^2.8.1",
+    "webpack": "^4.5.0",
+    "webpack-cli": "^2.0.14"
+  }
+}
